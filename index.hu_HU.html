@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>git-flow cheatsheet</title>
+    <title>git-flow puska</title>
     <link
       href="https://fonts.googleapis.com/css?family=Sansita+One"
       rel="stylesheet"
@@ -43,14 +43,14 @@
   <body>
     <div id="banner">
       <a href="https://github.com/danielkummer/git-flow-cheatsheet"
-        >Fork me on GitHub</a
+        >Forkolj GitHubon</a
       >
     </div>
     <header>
-      <h1 id="title">git-flow cheatsheet</h1>
+      <h1 id="title">git-flow puska</h1>
 
       <p id="author">
-        created by <a href="http://twitter.com/0r1g4m14dd1c7">Daniel Kummer</a>
+        készítette <a href="http://twitter.com/0r1g4m14dd1c7">Daniel Kummer</a>
         <a
           href="https://twitter.com/share"
           class="twitter-share-button"
@@ -71,127 +71,165 @@
           })(document, "script", "twitter-wjs");
         </script>
       </p>
+      <p id="author">
+        fordította
+        <a href="https://github.com/andrejmoltok" target="_blank"
+          >Ciocan Pál András</a
+        >
+      </p>
       <p id="desc">
-        efficient branching using git-flow by
-        <a href="http://nvie.com/">Vincent Driessen</a>
+        hatékony elágazások git-flow-val
+        <a href="http://nvie.com/">Vincent Driessen</a>-től
       </p>
       <p id="translations">
-        translations: <a href="#" class="active" title="english">English</a> -
+        translations: <a href="index.html" title="english">English</a> -
         <a href="index.es_ES.html" title="spanish">Castellano</a> -
         <a href="index.pt_BR.html" title="Português Brasileiro"
           >Português Brasileiro</a
         >
         -
         <a href="index.zh_TW.html" title="Traditional Chinese"
-          >繁體中文(Traditional Chinese)</a
+          >繁體中文(Hagyományos Kínai)</a
         >
         -
         <a href="index.zh_CN.html" title="Simplified Chinese"
-          >简体中文(Simplified Chinese)</a
+          >简体中文(Egyszerűsített Kínai)</a
         >
         - <a href="index.ja_JP.html" title="日本語">日本語</a> -
         <a href="index.tr_TR.html" title="Turkce">Türkçe</a> -
-        <a href="index.ko_KR.html" title="한국어">한국어(Korean)</a> -
+        <a href="index.ko_KR.html" title="한국어">한국어(Koreai)</a> -
         <a href="index.fr_FR.html" title="Français">Français</a> -
-        <a href="index.hu_HU.html" title="hungarian">Magyar(Hungarian)</a> -
+        <a href="#" class="active" title="hungarian">Magyar(Hungarian)</a> -
         <a href="index.it_IT.html" title="Italiano">Italiano</a> -
         <a href="index.nl_NL.html" title="Nederlands">Nederlands</a> -
-        <a href="index.ru_RU.html" title="Russian">Русский (Russian)</a> -
-        <a href="index.de_DE.html" title="German">Deutsch (German)</a> -
-        <a href="index.ca_CA.html" title="Català">Català (Catalan)</a> -
-        <a href="index.ro_RO.html" title="Romanian">Română (Romanian)</a> -
-        <a href="index.el_GR.html" title="Ελληνικά (Greek)">Ελληνικά (Greek)</a>
+        <a href="index.ru_RU.html" title="Russian">Русский (Orosz)</a> -
+        <a href="index.de_DE.html" title="German">Deutsch (Német)</a> -
+        <a href="index.ca_CA.html" title="Català">Català (Katalán)</a> -
+        <a href="index.ro_RO.html" title="Romanian">Română (Román)</a> -
+        <a href="index.el_GR.html" title="Ελληνικά (Greek)">Ελληνικά (Görög)</a>
         -
-        <a href="index.uk_UA.html" title="Ukrainian">Українська (Ukrainian)</a>
+        <a href="index.uk_UA.html" title="Ukrainian">Українська (Ukrán)</a>
         -
-        <a href="index.vi_VN.html" title="Tiếng Việt"
-          >Tiếng Việt (Vietnamese)</a
-        >
+        <a href="index.vi_VN.html" title="Tiếng Việt">Tiếng Việt (Vietnámi)</a>
         - <a href="index.pl_PL.html" title="Polish">Polski</a> -
-        <a href="index.ar_MA.html" title="العربية">العربية</a> -
-        <a href="index.fa_FA.html" title="فارسی">فارسی</a> -
-        <a href="index.lt_LT.html" title="Lithuanian"
-          >Lietuviškai (Lithuanian)</a
+        <a href="index.ar_MA.html" title="العربية">العربية(Arab)</a> -
+        <a href="index.fa_FA.html" title="فارسی">فارسی(Fárszi)</a> -
+        <a href="index.lt_LT.html" title="Lithuanian">Lietuviškai (Litván)</a>
+        -
+        <a href="index.az_AZ.html" title="Polish"
+          >Azərbaycanca (Azerbajdzsáni)</a
         >
         -
-        <a href="index.az_AZ.html" title="Polish">Azərbaycanca (Azerbaijani)</a>
         <a href="index.id_ID.html" title="Bahasa Indonesia">Bahasa Indonesia</a>
       </p>
     </header>
 
     <div id="main">
       <div class="scrollblock">
-        <h2>About</h2>
+        <h2>Rólam</h2>
 
         <p>
-          git-flow are a set of git extensions to provide high-level repository
-          operations for Vincent Driessen's branching model.
+          A git-flow egy git kiterjesztések gyűjteménye, amely magas fokú
+          könyvtár műveleteket nyújt a Vincent Driessen-féle elágazási
+          modellhez.
           <small
-            ><a href="http://nvie.com/posts/a-successful-git-branching-model/"
-              >more</a
+            ><a
+              href="http://nvie.com/posts/a-successful-git-branching-model/"
+              target="_blank"
+              >tovább</a
             ></small
           >
         </p>
         <p class="divider">&#9733; &#9733; &#9733;</p>
 
         <p>
-          This cheatsheet shows the basic usage and effect of git-flow
-          operations
+          Ez a puska a git-flow alap műveleteit és ezek következményeit mutatja
+          be.
         </p>
 
         <p class="divider">&#9733; &#9733; &#9733;</p>
       </div>
 
       <div class="scrollblock">
-        <h2>Basic tips</h2>
+        <h2>Alap tippek</h2>
         <ul>
           <li>
-            Git flow provides excellent command line help and output. Read it
-            carefully to see what's happening...
+            A git-flow tökéletes parancssori segítséget és kimenetet nyújt.
+            Olvasd figyelmesen hogy lásd mit hogyan kell használni...
+            <small
+              ><a href="https://www.npmjs.com/package/gitflow" target="_blank"
+                >tovább</a
+              ></small
+            >
           </li>
           <li>
-            The macOS/Windows Client
-            <a href="http://www.sourcetreeapp.com/">Sourcetree</a> is an
-            excellent git gui and provides git-flow support
+            A
+            <a href="http://www.sourcetreeapp.com/">Sourcetree</a>, mint
+            macOS/Windows Kliens, illetve a
+            <a
+              href="https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1"
+              >GitHub Desktop for Linux</a
+            >, mint Linux Kliens, mind kiváló git grafikus felület, amely
+            git-flow segédletet biztosíŧ
           </li>
           <li>
-            Git-flow is a merge based solution. It doesn't rebase feature
-            branches.
+            A Git-flow egy merge-alapú megoldás. Viszont, nem képes
+            rebase-elésre.
           </li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
       </div>
 
       <div class="scrollblock">
-        <h2><a name="setup" href="#setup">Setup</a></h2>
+        <h2><a name="setup" href="#setup">Telepítés</a></h2>
         <ul>
-          <li>You need a working git installation as prerequisite.</li>
-          <li>Git flow works on macOS, Linux and Windows</li>
+          <li>Előfeltételként szükséges egy működő git telepítés.</li>
+          <li>A Git-flow macOS-on, Linux-on és Windows-on működik.</li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
         <div class="col-1">
           <h3>macOS</h3>
           <span>Homebrew</span>
-          <blockquote>$ brew install git-flow-avh</blockquote>
-          <span>Macports</span>
-          <blockquote>$ port install git-flow-avh</blockquote>
+          <blockquote>$ brew install git-flow</blockquote>
+          <span>Macportolások</span>
+          <blockquote>$ port install git-flow</blockquote>
+          <span
+            ><a
+              href="https://github.com/nvie/gitflow/wiki/Mac-OS-X"
+              target="_blank"
+              >tovább</a
+            ></span
+          >
           <h3>Linux</h3>
-          <blockquote>$ apt-get install git-flow</blockquote>
+          <blockquote>$ npm i -g gitflow</blockquote>
+          <span
+            ><a
+              href="https://github.com/nvie/gitflow/wiki/Linux"
+              target="_blank"
+              >tovább</a
+            ></span
+          >
           <h3>Windows (Cygwin)</h3>
           <blockquote>
-            $ wget -q -O - --no-check-certificate
-            https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh
-            install stable | bash
+            $ $ wget -q -O - --no-check-certificate
+            https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh
+            | bash
           </blockquote>
-          <p>You need wget and util-linux to install git-flow.</p>
+          <span
+            ><a
+              href="https://github.com/nvie/gitflow/wiki/Windows"
+              target="_blank"
+              >tovább</a
+            ></span
+          >
+          <p>
+            Először telepítsd a wget-et, majd az util-linuxot a git-flow-hoz.
+          </p>
         </div>
         <div class="col-2">
           <p>
-            For detailed git flow installation instructions please visit the
-            <a
-              href="https://github.com/petervanderdoes/gitflow-avh/wiki/Installation"
-              >git flow wiki</a
-            >.
+            Részletes git-flow telepítési útmutatóért látogass el a
+            <a href="https://github.com/nvie/gitflow/wiki">git flow wiki</a>-re.
           </p>
           <img src="img/download.png" alt="install git-flow" />
         </div>
@@ -199,25 +237,25 @@
 
       <div class="scrollblock">
         <h2>
-          <a name="getting_started" href="#getting_started">Getting started</a>
+          <a name="getting_started" href="#getting_started">Vágjunk bele</a>
         </h2>
         <p>
-          Git flow needs to be initialized in order to customize your project
-          setup.
+          A Git-flow-t először is inicializálni kell hogy személyre szabhasd a
+          projektedet.
         </p>
         <p class="divider">&#9733; &#9733; &#9733;</p>
         <div class="col-1">
-          <h3>Initialize</h3>
+          <h3>Inicilizálás</h3>
 
           <p>
-            Start using git-flow by initializing it inside an existing git
-            repository:
+            Az inicializálást egy, már létező git könyvtárban(repo-ban) kell
+            elkezdeni, az alábbi paranccsal:
           </p>
           <blockquote>git flow init</blockquote>
           <p>
-            You'll have to answer a few questions regarding the naming
-            conventions for your branches.<br />
-            It's recommended to use the default values.
+            Néhány kérdést fog feltenni a branch-eid elnevezési szabványaira
+            való tekintettel.<br />
+            Ajánlott az alap értékekkel menni.
           </p>
         </div>
         <div class="col-2">
@@ -229,22 +267,22 @@
       </div>
 
       <div class="scrollblock">
-        <h2><a name="features" href="#features">Features</a></h2>
+        <h2><a name="features" href="#features">Feature-ök</a></h2>
 
         <ul class="narrow">
-          <li>Develop new features for upcoming releases</li>
-          <li>Typically exist in developers repos only</li>
+          <li>Fejlessz új feature-őket a leendő kiadásokhoz</li>
+          <li>Ez jellemzően csak a fejlesztők repo-iban vannak</li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
 
         <div class="col-1">
-          <h3>Start a new feature</h3>
-          <p>Development of new features starting from the 'develop' branch.</p>
-          <p>Start developing a new feature with</p>
+          <h3>Új feature elindítása</h3>
+          <p>Új feature-ok fejlesztése a `develop` branchből indul.</p>
+          <p>A következő parancsot használd ehhez</p>
           <blockquote>git flow feature start MYFEATURE</blockquote>
           <p>
-            This action creates a new feature branch based on 'develop' and
-            switches to it
+            Ez a parancs új feature branch-et készít a `develop`-ba majd
+            automatikusan átvált(checkout) arra a branch-re.
           </p>
 
           <!--
@@ -264,16 +302,16 @@
 
       <div class="scrollblock">
         <div class="col-1">
-          <h3>Finish up a feature</h3>
+          <h3>Új feature befejezése</h3>
 
           <p>
-            Finish the development of a feature. This action performs the
-            following
+            Új feature fejlesztésének befejezése. Ez a parancs a következőket
+            csinálja
           </p>
           <ul>
-            <li>Merges MYFEATURE into 'develop'</li>
-            <li>Removes the feature branch</li>
-            <li>Switches back to 'develop' branch</li>
+            <li>Merge-eli a MYFEATURE-t a 'develop' branchbe</li>
+            <li>Eltávolítja a feature branch-et</li>
+            <li>Visszalép a 'develop' branch-be</li>
           </ul>
 
           <blockquote>git flow feature finish MYFEATURE</blockquote>
@@ -285,12 +323,12 @@
 
       <div class="scrollblock">
         <div class="col-1">
-          <h3>Publish a feature</h3>
+          <h3>Új feature kiadása</h3>
 
           <p>
-            Are you developing a feature in collaboration? <br />
-            Publish a feature to the remote server so it can be used by other
-            users.
+            Csapatban fejlesztessz új feature-t? <br />
+            Publikáld az új feature-t a távoli szerverre, hogy más felhasználók
+            is használni tudják.
           </p>
 
           <blockquote>git flow feature publish MYFEATURE</blockquote>
@@ -302,13 +340,13 @@
 
       <div class="scrollblock">
         <div class="col-1">
-          <h3>Getting a published feature</h3>
+          <h3>Kiadott feature beszerzése</h3>
 
-          <p>Get a feature published by another user.</p>
+          <p>Mások által publikált feature-okat így szerezhetsz be.</p>
 
           <blockquote>git flow feature pull origin MYFEATURE</blockquote>
 
-          <p>You can track a feature on origin by using</p>
+          <p>Követheted a feature-t az origin-ből a következőképpen</p>
 
           <blockquote>git flow feature track MYFEATURE</blockquote>
         </div>
@@ -318,39 +356,42 @@
       </div>
 
       <div class="scrollblock">
-        <h2><a name="release" href="#release">Make a release</a></h2>
+        <h2><a name="release" href="#release">Kiadás lérehozása</a></h2>
 
         <ul>
-          <li>Support preparation of a new production release</li>
+          <li>Támogatja új production release előkészítését</li>
           <li>
-            Allow for minor bug fixes and preparing meta-data for a release
+            Megengedi új kiadásnak(release) bug-fixeit és metadata
+            előkészítését.
           </li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
         <div class="col-1">
-          <h3>Start a release</h3>
+          <h3>Kiadás elindítása</h3>
 
           <p>
-            To start a release, use the git flow release command. It creates a
-            release branch created from the 'develop' branch.
+            Új kiadás(release) létrehozásához, használd a `git flow release`
+            parancsot. Ez készít egy release branch-et, amelyet a `develop`
+            branch-ből ered.
           </p>
           <blockquote>git flow release start RELEASE [BASE]</blockquote>
           <p>
-            You can optionally supply a <code>[BASE]</code> commit sha-1 hash to
-            start the release from. The commit must be on the 'develop' branch.
+            Tetszőlgesen csatolhatsz egy <code>[BASE]</code> commit sha-1 hash-t
+            új kiadás elindításához. A megadott commit a `develop` branch-ből
+            kell származnia.
           </p>
           <p class="divider">&#9733; &#9733; &#9733;</p>
           <p>
-            It's wise to publish the release branch after creating it to allow
-            release commits by other developers. Do it similar to feature
-            publishing with the command:
+            Bölcs dolog kiadási branch publikálása létrehozás után, mivel más
+            fejlesztők is adhatnak hozzá kiadási commitokat. Hasonlóképpen a
+            feature publikáláshoz, használd az alábbi parancsot:
           </p>
           <blockquote>git flow release publish RELEASE</blockquote>
           <p>
-            (You can track a remote release with the <br /><code
+            (Követheted is a távoli kiadás-t ezzel a <br /><code
               >git flow release track RELEASE</code
             >
-            command)
+            paranccsal)
           </p>
         </div>
         <div class="col-2">
@@ -360,21 +401,25 @@
 
       <div class="scrollblock">
         <div class="col-1">
-          <h3>Finish up a release</h3>
+          <h3>Kiadás lezárása</h3>
 
           <p>
-            Finishing a release is one of the big steps in git branching. It
-            performs several actions:
+            Egy kiadás lezárása a legnagyobb lépés a git elágazásban. A alábbi
+            parancsok futnak le:
           </p>
           <ul>
-            <li>Merges the release branch back into 'master'</li>
-            <li>Tags the release with its name</li>
-            <li>Back-merges the release into 'develop'</li>
-            <li>Removes the release branch</li>
+            <li>
+              Egyesíti(Merge) a kiadási(release) branch-et a `master` branch-el
+            </li>
+            <li>Hozzáadja a kiadás nevét Tag-ként a kiadáshoz</li>
+            <li>
+              Visszafelé egyesíti a kiadási branch-et a `develop` branch-be
+            </li>
+            <li>Eltávolítja a kiadási(release) branch-et</li>
           </ul>
           <blockquote>git flow release finish RELEASE</blockquote>
           <p>
-            Don't forget to push your tags with
+            Ne feledd a tag-eket is push-olni
             <code>git push origin --tags</code>
           </p>
         </div>
@@ -384,27 +429,30 @@
       </div>
 
       <div class="scrollblock">
-        <h2><a name="hotfixes" href="#hotfixes">Hotfixes</a></h2>
+        <h2><a name="hotfixes" href="#hotfixes">Hotfixek</a></h2>
 
         <ul>
           <li>
-            Hotfixes arise from the necessity to act immediately upon an
-            undesired state of a live production version
+            Hotfixekre akkor van szükség, amikor egy nemkívánatos állapot áll
+            fenn egy production verzióban.
           </li>
           <li>
-            May be branched off from the corresponding tag on the master branch
-            that marks the production version.
+            Elágazhatnak a hozzátartózó tag-ből a master branch-en, amely a
+            production verziót jelőli.
           </li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
         <div class="col-1">
           <h3>git flow hotfix start</h3>
 
-          <p>Like the other git flow commands, a hotfix is started with</p>
+          <p>
+            Hasonlóképpen más git-flow parancsokhoz, egy hotfix elindításához
+            futtasd az alábbi parancsot.
+          </p>
           <blockquote>git flow hotfix start VERSION [BASENAME]</blockquote>
           <p>
-            The version argument hereby marks the new hotfix release name.
-            Optionally you can specify a basename to start from.
+            A verzió argumentum az új hotfix kiadási nevét jelenti.
+            Tetszőlegesen megjelölhetsz egy kiindulási nevet is.
           </p>
         </div>
         <div class="col-2">
@@ -414,11 +462,12 @@
 
       <div class="scrollblock">
         <div class="col-1">
-          <h3>Finish a hotfix</h3>
+          <h3>Hotfix lezárása(finish)</h3>
 
           <p>
-            By finishing a hotfix it gets merged back into develop and master.
-            Additionally the master merge is tagged with the hotfix version.
+            Egy hotfix lezárása után, automatikusan egyesítve lesz mind a
+            develop, mind a master banch-ekkel. Továbbá a master branch,
+            egyesítés után, a hotfix verziójával lesz tag-elve.
           </p>
           <blockquote>git flow hotfix finish VERSION</blockquote>
         </div>
@@ -436,7 +485,7 @@
       </div>
 
       <div class="scrollblock">
-        <h2><a name="commands" href="#commands">Commands</a></h2>
+        <h2><a name="commands" href="#commands">Parancsok</a></h2>
         <img src="img/git-flow-commands.png" alt="git-flow commands" />
       </div>
 
@@ -445,17 +494,17 @@
         <p class="divider">&#9733; &#9733; &#9733;</p>
         <ul>
           <li>
-            Not all available commands are covered here, only the most important
-            ones
+            Nincs mindegyik parancs felsorolva itt, csupán a legfontosabbak
           </li>
           <li>
-            You can still use git and all its commands normally as you know
-            them, git flow is only a tooling collection
+            Továbbra is használhatod a git-et és az összes parancsait, ahogy
+            eddig, a git-flow mindössze a eszköz kollekció.
           </li>
-          <li>The 'support' feature is still beta, using it is not advised</li>
           <li>
-            If you'd like to supply translations I'd be happy to integrate them
+            A 'support'(támogatás) feature még beta verzióban van, használata
+            nem ajánlott.
           </li>
+          <li>Ha a honosításban szeretnél segíteni, akkor forkold GitHubon</li>
         </ul>
         <p class="divider">&#9733; &#9733; &#9733;</p>
       </div>
@@ -463,7 +512,7 @@
 
     <footer>
       <div class="scrollblock">
-        <h2><a name="comments" href="#comments">Comments</a></h2>
+        <h2><a name="comments" href="#comments">Kommentek</a></h2>
 
         <div id="disqus_thread"></div>
       </div>
